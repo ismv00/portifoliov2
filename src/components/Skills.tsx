@@ -11,7 +11,7 @@ export function Skills() {
         </div>
 
         <div>
-          <ul className="grid grid-cols-2 grid-rows-3 gap-20 mt-20">
+          <ul className="grid grid-cols-2 grid-rows-3 gap-20 mt-20 max-sm:grid-cols-1">
             {projects.map((item, index) => {
               return (
                 <li key={index}>
@@ -19,7 +19,7 @@ export function Skills() {
                     <img
                       src={item.image}
                       alt={item.alt}
-                      className="w-full h-full rounded-3xl object-cover"
+                      className="w-full h-full rounded-3xl object-cover max-sm:object-fill resize"
                     />
                   </a>
                 </li>

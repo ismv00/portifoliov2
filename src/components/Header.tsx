@@ -8,7 +8,7 @@ export function Header() {
           src="https://avatars.githubusercontent.com/u/62908769?v=4"
           alt="Minha foto, tirada do perfil do github"
         />
-        <div className="flex flex-col items-start m-auto w-4/6 justify-between p-8 max-sm:gap-6 text-center">
+        <div className=" flex flex-col items-start m-auto w-4/6 justify-between p-8 max-sm:gap-6 text-center max-sm:items-center">
           <h1 className="font-bold text-5xl leading-69 text-gray-700 text-shadow offset-y-4 offset-x-0 blur-4 max-sm:text-4xl">
             Igor S. Menezes
           </h1>
