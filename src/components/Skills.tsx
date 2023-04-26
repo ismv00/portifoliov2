@@ -10,15 +10,16 @@ export function Skills() {
           </button>
         </div>
 
-        <div
-          data-aos="zoom-in-left"
-          data-aos-offset="100"
-          data-aos-delay="1400"
-        >
+        <div>
           <ul className="grid grid-cols-2 grid-rows-3 gap-20 p-6 mt-20 max-sm:grid-cols-1">
             {projects.map((item, index) => {
               return (
-                <li key={index}>
+                <li
+                  key={index}
+                  data-aos="zoom-in-left"
+                  data-aos-offset="100"
+                  data-aos-delay={item.delay}
+                >
                   <a href={item.href} target="_blank">
                     <img
                       src={item.image}
