@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import project1img from "./assets/projects/project1.png";
 import project2img from "./assets/projects/project2.png";
 import project3img from "./assets/projects/project3.png";
