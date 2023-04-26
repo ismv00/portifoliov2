@@ -3,6 +3,7 @@ import { Header } from "./components/Header";
 import { Contact } from "./components/Contact";
 import { Skills } from "./components/Skills";
 import "./global.css";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Facts />
       <Contact />
       <Skills />
+      <Footer />
     </div>
   );
 }
