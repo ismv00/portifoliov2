@@ -1,7 +1,11 @@
 export function Facts() {
   return (
     <div className="w-4/5 m-auto mt-12">
-      <div className="flex justify-between items-center w-4/5 m-auto px-8 text-gray-700 text-center max-sm:flex-col gap-4 max-sm:justify-center">
+      <div
+        className="flex justify-between items-center w-4/5 m-auto px-8 text-gray-700 text-center max-sm:flex-col gap-4 max-sm:justify-center"
+        data-aos="fade-up"
+        data-aos-delay="800"
+      >
         <div>
           <p>7</p>
           <p>Years of work</p>
