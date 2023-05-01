@@ -10,10 +10,10 @@ export function Header() {
           data-aos="fade-down"
           data-aos-delay="100"
         />
-        <div className=" flex flex-col items-start m-auto w-4/6 justify-between p-8 max-sm:gap-6 text-center max-sm:items-center max-sm:w-full">
+        <div className=" flex flex-col items-start m-auto w-4/6 justify-between p-8 max-sm:gap-6 text-center max-sm:items-center max-sm:w-full max-xs:w-full">
           <div className="m-auto">
             <h1
-              className="font-bold text-5xl leading-69 text-gray-700 text-shadow offset-y-4 offset-x-0 blur-4 max-sm:text-4xl max-sm:font-medium"
+              className="font-bold text-5xl leading-69 text-gray-700 text-shadow offset-y-4 offset-x-0 blur-4 max-sm:text-4xl max-sm:font-medium max-xs:text-2xl"
               data-aos="fade-down"
               data-aos-delay="200"
             >
