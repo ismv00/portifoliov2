@@ -21,6 +21,10 @@ export const linksSocialMedia = [
   },
 ];
 
+export const aboutData = {
+  text: "I am a technology enthusiast with a strong interest in software development. Recently, I have decided to focus on learning SwiftUI and entering the iOS app development field. I believe that the combination of my passion for technology with the power of SwiftUI is the key to success in my programming journey. I am excited to take advantage of all the features that SwiftUI offers and apply them to create amazing and useful applications.",
+};
+
 export const projects = [
   {
     image: project1img,

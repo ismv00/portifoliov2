@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 // Import components
 import { Facts } from "./components/Facts";
 import { Header } from "./components/Header";
+import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { Skills } from "./components/Skills";
 import { Footer } from "./components/Footer";
@@ -20,6 +21,7 @@ function App() {
   return (
     <div>
       <Header />
+      <About />
       <Facts />
       <Contact />
       <Skills />
